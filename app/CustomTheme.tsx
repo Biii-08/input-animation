@@ -1,9 +1,5 @@
-import {
-    createTheme,
-    ThemeProvider,
-    Theme,
-    useTheme,
-  } from "@mui/material/styles";
+import { createTheme, Theme } from "@mui/material/styles";
+
 export const customTheme = (outerTheme: Theme) =>
   createTheme({
     components: {
@@ -41,7 +37,7 @@ export const customTheme = (outerTheme: Theme) =>
               backgroundColor: "white",
               borderColor: "white",
             },
-            
+
             "&.Mui-focused .MuiNotchedOutline-notchedOutline": {
               borderColor: "white",
             },

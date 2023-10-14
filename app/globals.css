@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+  @import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Lato&display=swap');
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -26,7 +29,18 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+@font-face {
+  font-family: 'Dangrek';
+  src: url('/dangrek.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
+.head {
+  font-family: 'Dangrek', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+}
 .error-text{
   font-size: 12px;
   color: red;

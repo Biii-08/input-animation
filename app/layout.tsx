@@ -15,7 +15,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
-    </html>
+    <head>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      />
+      {/* Add your other head elements here */}
+    </head>
+    <body className={inter.className}>{children}</body>
+  </html>
   )
 }
