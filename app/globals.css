@@ -25,3 +25,9 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+
+.error-text{
+  font-size: 12px;
+  color: red;
+}
